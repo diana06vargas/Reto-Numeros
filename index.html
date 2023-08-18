@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/styles.css">
+<title>Números Mayor y Menor</title>
+
+</head>
+<body>
+<section id="sec">
+
+  <h1 id="titulo">Calculadora de Número Mayor y Menor</h1><br>
+
+  <label for="cantidad">Ingrese la Cantidad de números que desea ingresar:</label><br>
+
+  <input type="number" id="cantidad" min="1">
+
+  <div id="numeros">
+
+  </div>
+  <button type="number" onclick="calcularNumeros()">Calcular</button>
+
+  <article id="resultado" style="display: none;">
+
+    <br><p>El número mayor es: <span id="mayor"></span>
+    </p>
+    <br><p>El número menor es: <span id="menor"></span>
+    </p>
+    <br>
+    <h2>Para reiniciar la calculadora, reinicie la página</h2>
+</article>
+</section>
+
+<script src="./js/main.js"></script>
+</body>
+</html>

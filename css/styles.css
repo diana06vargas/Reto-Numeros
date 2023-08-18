@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*fondo de body*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+/*Decorar el titulo*/
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+/*Dimensiones del boton*/
+input[type="number"], button {
+   background-color: rgb(255, 234, 234);
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+    align-items: center;
+    text-transform: uppercase;
+}
+/*Decoración de la caja*/
+#sec {
+    margin-top: 5%;
+    border-radius: 24px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffe3b3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 10px);
+  }
+
+  label{
+    margin-top: 15px;
+    padding-top: 12px;
+  }
+
